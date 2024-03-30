@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-bottom: 45px;
+    background-color: #202C36;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B3844;
+    align-items: center;
+    padding: 29px 80px;
+}
+
+.left_part_header>p {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+main {
+    background-color: #202C36;
+    padding: 48px 80px 0 80px;
+}
+
+form {
+    background-color: #2B3844;
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 270px 18px 32px;
+    gap: 24px;
+    margin-bottom: 48px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    border-radius: 5px;
+}
+
+form>input {
+    border: none;
+    outline: none;
+    background-color: #2B3844;
+}
+
+form>input::placeholder {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.card {
+    background-color: #2B3844;
+    width: 267px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-bottom: 46px;
+    border-radius: 10px;
+}
+
+.card>img{
+    border-radius: 10px;
+}
+
+.other_p {
+    margin-bottom: 16px;
+    margin-left: 24px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.yes_p {
+    margin-left: 24px;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: white;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+@media(max-width:430px){
+    .left_part_header>p{
+        font-size: 14px;
+    }
+
+    header{
+        display: flex;
+        gap: 124px;
+        padding: 32px 16px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right_part_header>img{
+        width: 84px;
+        height: 17px;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form>img{
+        width: 16px;
+        height: 16px;
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        width: 343px;
+        height: 48px;
+    }
+
+    .card_wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}

@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B3844;
+    align-items: center;
+    padding: 29px 80px;
+}
+
+.left_part_header>p {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+main a>button {
+    background-color: #2B3844;
+    display: flex;
+    padding: 10px 39px;
+    justify-content: space-between;
+    width: 136px;
+    border: none;
+    outline: none;
+    gap: 11px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+a>button>span {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #202C36;
+    padding: 80px;
+}
+
+.left_part_main {
+    margin-top: 80px;
+    margin-bottom: 263px;
+}
+
+.left_part_main>img {
+    border-radius: 10px;
+}
+
+.bottom_part_main {
+    display: flex;
+    gap: 144px;
+    align-items: center;
+}
+
+.right_part_main {
+    transform: translateY(-82px);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 117px;
+    column-gap: 68px;
+}
+
+.top_part>p {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 43.65px;
+    text-align: left;
+    color: white;
+}
+
+.bottom_part>p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+}
+
+.second_part>p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+}
+
+.third_part>p {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.third_part {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.first_part {
+    flex-direction: column;
+    display: flex;
+    row-gap: 23px;
+}
+
+@media(max-width:430px) {
+    .left_part_header>p {
+        font-size: 14px;
+    }
+
+    header {
+        display: flex;
+        gap: 124px;
+        padding: 32px 16px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right_part_header>img {
+        width: 84px;
+        height: 17px;
+    }
+
+    main a>button {
+        border-radius: 5px;
+    }
+
+    .left_part_main>img {
+        width: 320px;
+    }
+
+    main {
+        padding: 40px 43px;
+    }
+
+    .bottom_part_main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 44px;
+        padding: 64px 28px;
+    }
+
+    .right_part_main {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-left: 0;
+    }
+
+    .first_part{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .img_part{
+        gap: 10px;
+        display: flex;
+    }
+
+    .top_part>p {
+        font-family: Nunito Sans;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 43.65px;
+        text-align: left;
+        color: white;
+    }
+
+    .bottom_part{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    
+    .bottom_part>p {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: white;
+    }
+    
+    .second_part>p {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        color: white;
+    }
+
+    .second_part{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    
+    .third_part>p {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 14px;
+        text-align: left;
+        color: white;
+    }
+
+    .third_part{
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        align-items: start;
+    }
+}
+
